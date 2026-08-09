@@ -1,3 +1,4 @@
 User-agent: *
+Disallow: /private/
 Allow: /
 https://amiragamal655.github.io/github.io/sitemap.xml
