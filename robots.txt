@@ -1,4 +1,4 @@
-User-agent:*
-This is a comment #
-Disallow: /github.io/private
-Crawl-delay: 10
+User-agent: *
+Disallow: /github.io/private/
+Allow: /github.io/private/test.html
+Sitemap: https://amiragamal655.github.io/github.io/sitemap.xml
