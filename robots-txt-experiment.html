@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robots.txt Practical Experiment - Amira Gamal</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fc;
+            color: #333;
+            margin: 40px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            color: #0a66c2;
+        }
+
+        h2 {
+            color: #084c94;
+            margin-top: 30px;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 12px;
+            border: 1px solid #d9e2ec;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        code {
+            background-color: #eef3f8;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+
+        a {
+            display: inline-block;
+            background-color: #0a66c2;
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: #084c94;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Robots.txt Practical Testing & Web Crawling Experiment</h1>
+
+<div class="section">
+    <h2>Project Overview</h2>
+
+    <p>
+        This project presents a practical experiment conducted to understand
+        how robots.txt commands affect crawler access to web pages.
+    </p>
+
+    <p>
+        The experiment was conducted using a GitHub Pages website and a
+        robots.txt testing tool.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Objectives</h2>
+
+    <ul>
+        <li>Understand how the Disallow command works.</li>
+        <li>Test the Allow command.</li>
+        <li>Compare crawler-specific User-agent rules.</li>
+        <li>Test the wildcard User-agent.</li>
+        <li>Examine the role of Sitemap and comments.</li>
+        <li>Observe the effect of Crawl-delay in the testing environment.</li>
+        <li>Understand the importance of using the exact URL path.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Practical Experiments</h2>
+
+    <h3>1. Disallow</h3>
+    <p>
+        The <code>Disallow</code> command was used to block access to a
+        specific directory.
+    </p>
+
+    <h3>2. Allow</h3>
+    <p>
+        An <code>Allow</code> rule was used to permit access to a specific
+        page inside a disallowed directory.
+    </p>
+
+    <h3>3. User-agent</h3>
+    <p>
+        Different rules were tested for Googlebot and Bingbot to observe
+        crawler-specific behavior.
+    </p>
+
+    <h3>4. User-agent: *</h3>
+    <p>
+        The wildcard User-agent was tested to apply the rule to crawlers
+        generally.
+    </p>
+
+    <h3>5. Comments</h3>
+    <p>
+        A comment was added to the robots.txt file to confirm that comments
+        do not change the access rule being tested.
+    </p>
+
+    <h3>6. Sitemap</h3>
+    <p>
+        A Sitemap URL was included in the robots.txt file as part of the
+        experiment.
+    </p>
+
+    <h3>7. Crawl-delay</h3>
+    <p>
+        A Crawl-delay value was included for observation in the testing
+        environment.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Key Learning</h2>
+
+    <p>
+        The experiment showed that the exact URL path is important when
+        writing a robots.txt rule. A rule must correspond to the actual
+        path that is being tested.
+    </p>
+
+    <p>
+        The experiment also demonstrated how crawler-specific rules can
+        produce different results depending on the User-agent being tested.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Tools & Technologies</h2>
+
+    <ul>
+        <li>GitHub Pages</li>
+        <li>robots.txt</li>
+        <li>Robots.txt Tester</li>
+        <li>Googlebot</li>
+        <li>Bingbot</li>
+    </ul>
+</div>
+
+<p>
+    <a href="projects.html">← Back to Projects</a>
+</p>
+
+</body>
+</html>
