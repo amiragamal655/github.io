@@ -1,3 +1,4 @@
 User-agent:*
 This is a comment #
 Disallow: /github.io/private
+Crawl-delay: 10
