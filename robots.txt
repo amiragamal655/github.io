@@ -1,4 +1,4 @@
-User-agent: *
+User-agent: Googlebot
 Disallow: /github.io/private
+User-agent: Bingbot
 Allow: /github.io/private/test.html
-Sitemap: https://amiragamal655.github.io/github.io/sitemap.xml
